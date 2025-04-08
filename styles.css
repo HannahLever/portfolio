@@ -3,3 +3,28 @@
 Author: Hannah Lever
 Desc: Portfolio styling
 */
+
+body {
+    font-family: Georgia, 'Times New Roman', serif;
+    color: #00171F;
+    background-color: #fff9e8;
+    
+}
+
+a {
+    color: #18685b;
+}
+
+header a {
+    text-decoration: none;
+}
+
+nav > ul {
+    list-style: none;
+    font-weight: bold;
+}
+
+#site-title {
+    font-size: 2.5em;
+    color: black;
+}

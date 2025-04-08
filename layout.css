@@ -3,3 +3,23 @@
 Author: Hannah Lever
 Desc: Portfolio layout
 */
+
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+
+    margin: 0px 20px;
+    min-height: 95vh;
+}
+
+#site-title {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+nav > ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
