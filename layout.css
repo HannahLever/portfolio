@@ -40,10 +40,10 @@ main li {
     margin: 5px 0px;
 }
 
-/* Desktop/wide layout */
-@media screen and (min-width: 720px) {
+/* Medium wide layout */
+@media screen and (min-width: 600px) {
     body {
-        margin: 15px 15vw
+        margin: 15px 5vw;
     }
     
     header {
@@ -77,4 +77,12 @@ main li {
     #resume > h1:first-child {
         grid-column: span 2;
     } 
+}
+
+/* Full wide layout */
+@media screen and (min-width: 890px) {
+    body {
+        max-width: 800px;
+        margin: 15px auto;
+    }
 }
